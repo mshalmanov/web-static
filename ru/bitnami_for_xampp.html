@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- Use title if it's in the page YAML frontmatter -->
-    <title>Bitnami for XAMPP</title>
+    <title>Bitnami для XAMPP</title>
 
     <meta name="description" content="Instructions on how to install and use Bitnami XAMPP modules." />
     
@@ -147,46 +147,46 @@
   <div class="large-12 columns">
     <p>Bitnami для XAMPP очень упрощает разработку приложений на PHP поверх ApacheFriends XAMPP, путем установки WordPress и многих других приложений с открытым исходным кодом поверх XAMPP.
     <h3>Системные требования</h3>
-    <p>Модули Bitnami XAMPP требуют XAMPP или Bitnami LAMP, MAMP или WAMP стеки уже установленными. Они могут быть использованны с помощью XAMPP (установщик или zip-архив) версии 1.7.4 или позднее на Windows, версии 1.8.1 или позднее на Linux, и версии 1.8.2 или позднее на Mac OS X.</p>
+    <p>Модули Bitnami XAMPP требуют XAMPP или уже установленный Bitnami LAMP, MAMP или WAMP стеки. Их можно использовать с помощью XAMPP (установщик или zip-архив) версии 1.7.4 или позднее в Windows, версии 1.8.1 или позднее в Linux, и версии 1.8.2 или позднее в Mac OS X.</p>
     <p><a href="https://bitnami.com/stack/xampp">Скачать модули Bitnami XAMPP</a></p>
     <aside>
       <p>Bitnami для XAMPP работает корректно поверх портативной версии. Из-за требований приложения, после установки приложения вы не можете переместить или переименовать свою папку с XAMPP.</p>
     </aside>
     <h3>Установка</h3>
-    <p>Модули Bitnami XAMPP требуют XAMPP или Bitnami LAMP, MAMP или WAMP стеки уже установленными. Они могут быть использованны с помощью XAMPP (установщик или zip-архив) версии 1.7.4 или позднее на Windows, версии 1.8.1 или позднее на Linux, и версии 1.8.2 или позднее на Mac OS X.</p>
+    <p>Для модулей Bitnami XAMPP требуются XAMPP или уже установленный стек Bitnami LAMP, MAMP или WAMP. Их можно использовать с помощью XAMPP (установщик или zip-архив) версии 1.7.4 или позднее в Windows, версии 1.8.1 или позднее в Linux, и версии 1.8.2 или позднее в Mac OS X.</p>
     <p><a href="https://bitnami.com/stack/xampp">Скачать модули Bitnami XAMPP</a></p>
     <aside>
       <p>Перед началом установки модуля убедитесь, что сервер XAMPP MySQL запущен.</p>
     </aside>
-    <p>Во время процесса установки, вам будет предложено указать папку установки XAMPP. Каталог установки по умолчанию обычно C:\xampp на Windows, /opt/lampp на Linux и /Applications/XAMPP на Mac OS X.</p>
+    <p>Во время процесса установки, вам будет предложено указать каталог установки XAMPP. Каталог установки по умолчанию обычно C:\xampp в Windows, /opt/lampp в Linux и /Applications/XAMPP в Mac OS X.</p>
     <img src="/images/bitnami-xampp/image1-b9090909.png" />
-    <p>Модули Bitnami для XAMPP требуют root пароля MySQL для создания баз данных приложения. Пароль XAMPP по умолчанию для учетной записи MySQL root — пустая строка. Если вы изменили этот пароль, вам будет необходимо ввести его в процессе установки модуля.</p>
+    <p>Модули Bitnami для XAMPP требуют root пароль MySQL для создания баз данных приложения. Пароль XAMPP по умолчанию для учетной записи MySQL root — пустая строка. Если вы изменили этот пароль, вам будет необходимо ввести его в процессе установки модуля.</p>
     <img src="/images/bitnami-xampp/image2-63c6ea3b.png" />
 
     <h3>Расположение файлов</h3>
-    <p>Приложения Bitnami будут установлены в папке XAMPP, в подкаталоге apps/. Все приложения настроены со своими файлами в следующих местах:</p>
+    <p>Приложения Bitnami будут установлены в каталог установки XAMPP, в подкаталоге apps/. Все приложения настраиваются со своими файлами в следующих местах:</p>
     <ul>
       <li><em>INSTALL-DIR/apps/APP-NAME/htdocs</em>: Файлы приложений</li>
       <li><em>INSTALL-DIR/apache/conf/httpd.conf</em>: Файлы конфигурации Apache</li>
       <li><em>INSTALL-DIR/apps/APP-NAME/conf/httpd-prefix.conf</em> (в предыдущих версиях, <em>wordpress.conf</em>): Файл конфигурации Apache для приложения</li>
     </ul>
 
-    <p>Чтобы получить доступ к приложению, перейдите на http://localhost/НАЗВАНИЕ-ПРИЛОЖЕНИЯ. К примеру, WordPress будет доступен на веб-странице http://localhost/wordpress. Вы также можете получить доступ к приложениям с главной страницы XAMPP под вкладкой "Applications" или "Приложения".</p>
+    <p>Чтобы получить доступ к приложению, перейдите по URL-адресу http://localhost/НАЗВАНИЕ-ПРИЛОЖЕНИЯ. К примеру, WordPress будет доступен на веб-странице http://localhost/wordpress. Вы также можете получить доступ к приложениям с главной страницы XAMPP под вкладкой "Applications" или "Приложения".</p>
     <img src="/images/bitnami-xampp/image3-4c3cc1b4.png" />
     <p><a href="https://docs.bitnami.com/">Найдите больше информации о том, как настраивать приложения Bitnami</a></p>
 
-    <h3>Реквизиты для входа</h3>
-    <p>Реквизиты администратора для каждого приложения могут быть настроены из установщик. Стандартное имя пользователя - "user", а пароль, какой вы ставили при установке.</p>
+    <h3>Учетные данные для входа</h3>
+    <p>Учетные данные администратора для каждого приложения настраиваются в установщике. Имя пользователя по умолчанию - "user", а пароль, который был настроен в просесе установки.</p>
     <img src="/images/bitnami-xampp/image4-a3d9afd4.png" />
 
-    <h3>Графический менедженр</h3>
+    <h3>Графический менеджер</h3>
     <p>С момента выхода XAMPP v1.8.2-beta2, XAMPP для Linux и для Mac OS X предусматривает новый графический менеджер, как показано ниже:</p>
     <img src="/images/bitnami-xampp/image5-94bb2ba8.png" />
-    <p>Вы также можете продолжить использовать обычный скрипт /opt/lampp/lampp из командной строки Linux, как показано ниже:</p>
+    <p>Вы также можете продолжить использовать обычный скрипт /opt/lampp/lampp из командной строки в Linux, как показано ниже:</p>
     <img src="/images/bitnami-xampp/image6-c4bb37df.png" />
 
     <h3>Командная строка</h3>
-    <p>Некоторые приложения включают в себя инструмент для создания сценариев командной строки, такой как Drush для Drupal. Получите доступ к этим инструментам командной строки из оболочки командной строки XAMPP, включенной в XAMPP для Windows.</p>
+    <p>Некоторые приложения включают в себя инструмент для создания сценариев командной строки, такой как Drush для Drupal. Получите доступ к этим инструментам командной строки из оболочки командной строки XAMPP, входящей в состав XAMPP для Windows.</p>
     <img src="/images/bitnami-xampp/image7-b2b7417a.png" />
 
   </div>
@@ -199,8 +199,8 @@
         <div class="footer_lists-container row collapse">
           <div class="footer_social columns large-2">
             <ul class="social">
-  <li class="twitter"><a href="https://twitter.com/apachefriends">Follow us on Twitter</a></li>
-  <li class="facebook"><a href="https://www.facebook.com/we.are.xampp">Like us on Facebook</a></li>
+  <li class="twitter"><a href="https://twitter.com/apachefriends">Следуйте за нами в Twitter</a></li>
+  <li class="facebook"><a href="https://www.facebook.com/we.are.xampp">Ставьте лайки на нас в Facebook</a></li>
 </ul>
 
             <p class="footer_copyright">Copyright (c) 2023, Apache Friends</p>
@@ -209,7 +209,7 @@
             <li><a href="https://www.apachefriends.org/blog.html">Блог</a></li>
             <li><a href="/privacy_policy.html">Политика приватности</a></li>
             <li>
-<a target="_blank" href="http://www.fastly.com/">                CDN предусмотрено
+<a target="_blank" href="http://www.fastly.com/">Предоставленный CDN
                 <img width="48" data-2x="/images/fastly-logo@2x-dad6aac3.png" src="/images/fastly-logo-08360cb5.png" />
 </a>            </li>
           </ul>
